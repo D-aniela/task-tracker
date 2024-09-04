@@ -1,0 +1,14 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "add": "node index.js add",
+    "update": "node index.js update",
+    "remove": "node index.js remove",
+    "progress": "node index.js mark-in-progress",
+    "done": "node index.js mark-done",
+    "list": "node index.js list"
+  }
+}
